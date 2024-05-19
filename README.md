@@ -40,7 +40,7 @@ Model Building and Evaluation:
 
 1.Split the dataset into training and testing/validation sets. 
 
-2.Balance the dataset using SMOTEENN.
+2.Balance the dataset using SMOTEENN for classification.
 
 3.Train and evaluate different classification models, I have used DecisionTree , RandomForest and XGBboost using appropriate evaluation metrics such as r squared score  for regression and  F1 score for classification.
 
@@ -80,7 +80,7 @@ Classification:
   
    DecisionTreeClassifier :  0.953829286838429
 
-   RandomForestClassifier : 0.91146444557533
+   RandomForestClassifier : 0.9608614033223533
 
    XGBClassifier : 0.9502617336527371
   
