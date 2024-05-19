@@ -1,3 +1,5 @@
+DEMO VIDEO: https://www.linkedin.com/posts/rajarajeswari-s-49671428b_hello-everyone-my-new-project-industrial-activity-7197838115724537856--rwc?utm_source=share&utm_medium=member_desktop
+
 Problem Statement:
 
 The copper industry deals with less complex data related to sales and pricing. However, this data may suffer from issues such as skewness and noisy data, which can affect the accuracy of manual predictions. Dealing with these challenges manually can be time-consuming and may not result in optimal pricing decisions. A machine learning regression model can address these issues by utilizing advanced techniques such as data normalization, feature scaling, and outlier detection, and leveraging algorithms that are robust to skewed and noisy data.
@@ -40,7 +42,7 @@ Model Building and Evaluation:
 
 1.Split the dataset into training and testing/validation sets. 
 
-2.Balance the dataset using SMOTEENN for classification.
+2.Balance the dataset using Cluster-Centroid Sampling(under_sampling) or SMOTE(over_sampling) or SMOTEENN(over_sampling + under_sampling) for classification.
 
 3.Train and evaluate different classification models, I have used DecisionTree , RandomForest and XGBboost using appropriate evaluation metrics such as r squared score  for regression and  F1 score for classification.
 
@@ -84,7 +86,7 @@ Classification:
 
    XGBClassifier : 0.9502617336527371
   
-  So the best model for regression is RandomForestClassifier.
+  So the best model for Classifier is RandomForestClassifier.
 
   
 
